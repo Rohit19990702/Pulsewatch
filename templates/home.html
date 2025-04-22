@@ -1,0 +1,250 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseWatch | Infrastructure Sentiment Monitor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #120f3e, #1c1c44);
+            color: #fff;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: #121212;
+            border-bottom: 5px solid #00aaff;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 70px;
+            color: #00aaff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 3px;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #ccc;
+            margin-top: 10px;
+            opacity: 0.8;
+        }
+
+        .features {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #2b2d42, #1f2430);
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 50px;
+            color: #00aaff;
+            margin-bottom: 30px;
+        }
+
+        .features .row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .feature-item {
+            background: #121212;
+            border-radius: 15px;
+            padding: 20px;
+            transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out, background 0.4s ease;
+            width: 280px;
+            text-align: center;
+            border: 3px solid #1a1a1d;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-item:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 30px rgba(0, 170, 255, 0.3);
+            background: linear-gradient(135deg, #00aaff, #00e6ff);
+        }
+
+        .feature-item a {
+            display: block;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            background-color: #00aaff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .feature-item a:hover {
+            background-color: #0099cc;
+        }
+
+        footer {
+            background-color: #121212;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .floating-bg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 300%;
+            height: 300%;
+            background: rgba(0, 170, 255, 0.2);
+            animation: pulse 8s infinite;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(0.8);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 45px;
+            }
+
+            .features h2 {
+                font-size: 35px;
+            }
+
+            .feature-item {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="floating-bg"></div>
+
+    <header>
+        <div class="container">
+            <h1>PulseWatch</h1>
+            <p>Transforming Infrastructure Monitoring with AI</p>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <a href="/alerts/">Alerts</a>
+                    <p>Real-time infrastructure alerting system to keep you informed.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <a href="/logs/">Logs</a>
+                    <p>Access detailed logs to analyze system performance and health.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <a href="/admin/">Admin Panel</a>
+                    <p>Manage all settings and configurations from a centralized admin dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PulseWatch. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> -->
+<!-- templates/home.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseWatch | Home</title>
+</head>
+<body>
+    <h1>Welcome to PulseWatch!</h1>
+    <p>You're logged in as {{ user.username }}.</p> 
+    <a href="{% url 'logout' %}">Logout</a> -->
+<!-- </body>
+</html> -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PulseWatch{% endblock %}</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRAB+I7h4N4H6t2X6HOyI57InjsZ8pF6tG6YoI8h4e3p5dO7p3M5Gb3Bd" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Your Navbar Here (Optional) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PulseWatch</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/alerts/">Alerts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/logs/">Logs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN (For interactive features) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb6htxJ2j24hCBgV6oD9p5vVf5KZ9Xg8BqSo5oB3vw4A8fZx3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0V9u09XtA1w1o1d1vG5aFTuZ5c5y4J0l9S/50S1O51Kv5D2t" crossorigin="anonymous"></script>
+</body>
+</html>
